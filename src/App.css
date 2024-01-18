@@ -1,0 +1,113 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.app {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 400px;
+}
+
+.container {
+  text-align: center;
+}
+
+h2 {
+  color: #007bff; /* Blue */
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #495057; /* Dark gray */
+  font-size: 14px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.btn {
+  background-color: #007bff; /* Green */
+  color: #ffffff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-right: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #e5ebe7; /* Dark green */
+  color: black;
+  border: 1px solid #26282b;
+}
+
+.btnoutline {
+  background-color: #fff;
+  color: #040505; /* Blue */
+  border: 1px solid #26282b;
+  padding: 12px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: color 0.3s, border-color 0.3s;
+}
+
+.btnoutline:hover {
+  color: #e5eaf0; /* Dark blue */
+  border-color: #007bff;
+  background-color: #007bff;
+}
+
+.center {
+  text-align: center;
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f1f8ff; /* Light Blue background */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+  color: #333333;
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+p {
+  color: #6c757d; /* Gray */
+  font-size: 16px;
+  margin-bottom: 0;
+  font-family: 'Arial', sans-serif;
+  font-style: italic;
+  letter-spacing: 0.5px;
+  line-height: 1.4;
+}
